@@ -1,16 +1,149 @@
-# React + Vite
+# Nawin Srivatsav Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my experience, projects, certifications, and technical skills in Data Analytics, Business Intelligence, Python Development, and Automation Engineering.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Portfolio: https://my-portfolio-eosin-ten-1vjv9nwmns.vercel.app/
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio highlights my work in:
 
-## Expanding the ESLint configuration
+* Data Analytics
+* Power BI Dashboard Development
+* SQL Data Processing
+* Python Automation
+* Machine Learning
+* AI Workflow Engineering
+* Business Intelligence Solutions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website is designed with a modern UI, smooth animations, interactive visuals, and responsive layouts to provide an engaging user experience across devices.
+
+## Featured Projects
+
+### AI Automation Engine
+
+Enterprise-grade AI workflow automation platform integrating LLMs, APIs, and automated document processing pipelines.
+
+**Technologies:**
+
+* Python
+* FastAPI
+* OpenAI API
+* LangChain
+
+### StockSage Analytics Platform
+
+Predictive financial analytics application delivering stock forecasting and trend visualization.
+
+**Technologies:**
+
+* Python
+* Streamlit
+* Prophet
+* Plotly
+
+### Instagram Clone using Python
+
+A social media platform clone implementing user authentication, profile management, posting functionality, and database integration.
+
+**Technologies:**
+
+* Python
+* SQLite
+* Authentication Systems
+* GUI Development
+
+### KivyMD Mobile UI Ecosystem
+
+Cross-platform mobile application built using Material Design principles and optimized UI performance.
+
+**Technologies:**
+
+* Python
+* Kivy
+* KivyMD
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* CSS3
+* Framer Motion
+
+### Visualization & Graphics
+
+* Spline
+* Three.js
+* React Three Fiber
+
+### Data & Analytics
+
+* Power BI
+* SQL
+* Python
+* Pandas
+
+### Tools
+
+* Git
+* GitHub
+* Vercel
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NawinSRIvatsav/my-portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd my-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This portfolio is deployed using Vercel and automatically updates whenever changes are pushed to the main branch.
+
+## Connect With Me
+
+LinkedIn:
+https://www.linkedin.com/in/nawin-srivatsav-s-052447227
+
+GitHub:
+https://github.com/NawinSRIvatsav
+
+Email:
+[srinawin6@gmail.com](mailto:srinawin6@gmail.com)
+
+## Author
+
+**Nawin Srivatsav S**
+
+Data Analyst | Power BI Developer | SQL Specialist | Python Developer
+
+Transforming business data into actionable insights through analytics, visualization, and automation.
