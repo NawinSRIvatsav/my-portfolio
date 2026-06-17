@@ -80,6 +80,13 @@ function Navbar() {
         </li>
 
         <li
+          className={active === "certifications" ? "active" : ""}
+          onClick={() => scrollToSection("certifications")}
+        >
+          Certifications
+        </li>
+
+        <li
           className={active === "projects" ? "active" : ""}
           onClick={() => scrollToSection("projects")}
         >

@@ -1,8 +1,16 @@
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import avatar from "../assets/myphoto.png"; // change filename if needed
 
 function Contact() {
   return (
     <section id="contact" className="contact">
+
+      <img
+        src={avatar}
+        alt="Nawin Avatar"
+        className="contact-avatar"
+      />
+
       <h2>Contact Me</h2>
 
       <p>
@@ -38,6 +46,7 @@ function Contact() {
           <span>GitHub</span>
         </a>
       </div>
+
     </section>
   );
 }

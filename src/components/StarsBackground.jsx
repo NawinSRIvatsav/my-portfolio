@@ -1,26 +1,31 @@
-import { Canvas } from "@react-three/fiber";
-import { Stars } from "@react-three/drei";
-
 function StarsBackground() {
+  const stars = Array.from({ length: 80 }, (_, index) => ({
+    id: index,
+    top: `${Math.random() * 100}%`,
+    left: `${Math.random() * 100}%`,
+    size: `${Math.random() * 2 + 1}px`,
+    delay: `${Math.random() * 4}s`,
+    duration: `${2 + Math.random() * 3}s`,
+    opacity: 0.35 + Math.random() * 0.65,
+  }));
+
   return (
-    <div
-      style={{
-        position: "fixed",
-        inset: 0,
-        zIndex: 0,
-        pointerEvents: "none", // important
-      }}
-    >
-      <Canvas>
-        <Stars
-          radius={300}
-          depth={60}
-          count={10000}
-          factor={7}
-          fade
-          speed={2}
+    <div className="stars-background" aria-hidden="true">
+      {stars.map((star) => (
+        <span
+          key={star.id}
+          className="star"
+          style={{
+            top: star.top,
+            left: star.left,
+            width: star.size,
+            height: star.size,
+            animationDelay: star.delay,
+            animationDuration: star.duration,
+            opacity: star.opacity,
+          }}
         />
-      </Canvas>
+      ))}
     </div>
   );
 }
